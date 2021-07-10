@@ -1,0 +1,143 @@
+/* General Elements
+----------------------------------------------------*/
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.container {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.clearfix {
+	clear: both;
+}
+section, footer {
+	width: 100%;
+	padding: 10px 0;
+}
+.accessible {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+.accessible:focus {
+	position: relative;
+	left: 0px;
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+/* header & nav
+----------------------------------------------------*/
+header {
+	background-color: #f09cb4;
+}
+#logo {
+	padding: 0 0;
+	margin: 0 auto;
+	max-width: 900px;
+}
+#logo h1 {
+	font-size: 70px;
+	color: #fff;
+	float: left;
+	margin: 20px auto;
+	padding: 0 20px;
+	font-weight: 100;
+	word-spacing:30px;
+}
+span#name {
+	font-family:Curlz MT;
+}
+ul {
+	max-width: 1000px;
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+li {
+	float: left;
+	padding: 10px 30px;
+	display: block;
+}
+li a {
+	text-decoration: none;
+	padding: 10px;
+	padding-left: 0;
+	display: block;
+	color: #fff;
+	font-size: 30px;
+	font-family:Curlz MT;
+}
+nav ul li a:hover {
+	color: #00a0b2;
+}
+/* Introduction
+----------------------------------------------------*/
+section#intro {
+	background-color: #f09cb4;
+	background-image:url(../images/map.jpg);
+	background-repeat:no-repeat;
+	background-size:auto;
+	background-position:center;
+	display:block;
+}
+section#intro h2 {
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: 50px;
+	/*max-width:650px; */
+	margin: 20px auto;
+	padding: 10px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: 300;
+}
+#content1 {
+	max-width: 700px;
+	float: left;
+	display: block;
+	padding:0 40px;
+	padding-bottom:250px;
+	padding-top:40px;
+}
+#content1 p {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 200;
+	margin: 0 auto;
+	padding: 5px 0;
+	word-spacing: 10px;
+	line-height:1.5;
+	text-shadow:
+   -2px -1px 0 #f09cb4,
+    2px -2px 0 #f09cb4,
+    -2px 2px 0 #f09cb4,
+     2px 2px 0 #f09cb4;
+}
+#myself {
+	height: 260px;
+	width: 150px;
+	padding-top:40px;
+	display: block;
+	float: left;
+}
+/* footer
+----------------------------------------------------*/
+footer {
+	background-color: #f09cb4;
+}
+p.date {
+	font-family:Chalkduster;
+	color:#3a9bad;
+	font-size: 45px;
+	letter-spacing: 2px;
+	display: block;
+	max-width: 450px;
+	margin: 0 auto;
+	padding:10px 0;
+}
+{"mode":"full","isActive":false}
